@@ -33,7 +33,7 @@ USER python
 RUN mkdir ~/.ssh  && \
     chmod -R a+rwX ~/
 
-ENTRYPOINT ["/opt/boids-engine/boids-k8s-events.py"]
+ENTRYPOINT ["/opt/boids-engine/boids-engine.py"]
 CMD ["--help"]
 
 
